@@ -53,24 +53,26 @@
         <!-- MODAL BUTTON  -->
           <a class="waves-effect waves-light btn-large modal-trigger light-blue" href="#modal1">Get Your Order In</a>
       </div>
+
+        <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+      <!--close the modal-->
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat left">X</a>
+      <div class="modal-content">
+          <iframe class="orderForm" src="https://docs.google.com/forms/d/e/1FAIpQLScRJZc3jm5hzD_dvn8wg7h2U8eeUizdtuDl3cRDzFdx0UBdNA/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
+    </div>
+    <!-- END MODAL -->
  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     </div>
   </div>
 
   
 
-  <!-- Modal Structure -->
-  <div id="modal1" class="modal">
-    <!--close the modal-->
-    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat left">X</a>
-    <div class="modal-content">
-        <iframe class="orderForm" src="https://docs.google.com/forms/d/e/1FAIpQLScRJZc3jm5hzD_dvn8wg7h2U8eeUizdtuDl3cRDzFdx0UBdNA/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-    </div>
-  </div>
-  <!-- END MODAL -->
+
 
   <div class="container">
     <div class="section">
@@ -89,35 +91,39 @@
       </div>
 
     </div>
-    <br><br>
-    <div class="row">
-      <form class="col s12">
-        <div class="row">
-          <div class="input-field col s6">
-            <i class="material-icons prefix">account_circle</i>
-            <input id="icon_prefix" type="text" class="validate">
-            <label for="icon_prefix">Name</label>
-          </div>
-          <div class="input-field col s6">
-            <i class="material-icons prefix">email</i>
-            <input id="email" type="email" class="validate">
-            <label for="email" data-error="wrong" data-success="right">Email</label>
-          </div>
-        </div>
-      </form>
     </div>
-  </div>
-
-  <footer class="page-footer teal darken-3">
+   
     <div class="container">
-      <div class="row">
+        <br><br>
+        <div class="row">
+          <!-- Begin MailChimp Signup Form -->
+    <div id="mc_embed_signup col s12">
+    <form action="https://github.us17.list-manage.com/subscribe/post?u=eff2a6216dbb675028088b1da&amp;id=f39c178a11" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div id="mc_embed_signup_scroll" class="input-field">
+      <label for="mce-EMAIL">Subscribe to our mailing list</label>
+      <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_eff2a6216dbb675028088b1da_f39c178a11" tabindex="-1" value=""></div>
+        <div class="clear waves-effect waves-light btn-large light-blue">
+                <i class="material-icons right">send</i>
+            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+        </div>
+    </form>
+    </div>
+    
+    <!--End mc_embed_signup-->
+        </div>
       </div>
-    </div>
-    <div class="footer-copyright">
-      <p>Dan Byler 2018</p>
-    </div>
-  </footer>
-
+    
+      <footer class="page-footer teal darken-3">
+            <div class="container">
+              <div class="row">
+              </div>
+            </div>
+            <div class="footer-copyright">
+              <p>Dan Byler 2018</p>
+            </div>
+          </footer>
 
   <!--  Scripts-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
