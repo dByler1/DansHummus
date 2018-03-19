@@ -16,17 +16,7 @@
     <div class="nav-wrapper teal darken-3" role="navigation">
       <a href="#" data-activates="mobile-demo" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
       <a href="index.html" class="brand-logo">Dan's Hummus</a>
-      <!-- <ul class="right hide">
-        <li><a href="https://codepen.io/collection/nbBqgY/" target="_blank">Sass</a></li>
-        <li><a href="https://codepen.io/collection/nbBqgY/" target="_blank">Components</a></li>
-        <li><a href="https://codepen.io/collection/nbBqgY/" target="_blank">Javascript</a></li>
-        <li><a href="https://codepen.io/collection/nbBqgY/" target="_blank">Mobile</a></li>
-      </ul> -->
-      
-      <ul class="side-nav grey darken-2" id="mobile-demo">
-        
-        
-        
+      <ul class="side-nav grey darken-2" id="mobile-demo">  
         <li class="white">
           <a href="index.html">Home</a>
         </li>
@@ -45,48 +35,91 @@
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
-      <h1 class="header center light-blue-text heroCopy">Dan's Hummus</h1>
       <div class="row center">
-        <h5 class="header col s12 light">Amazing hummus. Made well.</h5>
+        <h5 class="header col s12 light">A million ways to eat it.</h5>
       </div>
       <div class="row center">
         <!-- MODAL BUTTON  -->
           <a class="waves-effect waves-light btn-large modal-trigger light-blue" href="#modal1">Get Your Order In</a>
       </div>
+      <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+        <!--close the modal-->
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat left">X</a>
+        <div class="modal-content">
+            <iframe class="orderForm" src="https://docs.google.com/forms/d/e/1FAIpQLScRJZc3jm5hzD_dvn8wg7h2U8eeUizdtuDl3cRDzFdx0UBdNA/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+      <!-- END MODAL -->
  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     </div>
   </div>
+<!-- PICTURES SECTION -->
+<div class="container">
+    <div class="row">
+    <!-- FIRST IMAGE     -->
+        <div class="col s6 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/images/bowlChickpeas.jpg">
+              <span class="card-title">Prep</span>
+            </div>
+            <div class="card-content">
+              <p>Getting ready to process the chickpeas. I love freshly cooked chickpeas.</p>
+            </div>
+          </div>
+        </div>
+<!-- SECOND IMAGE -->
+        <div class="col s6 m4">
+            <div class="card">
+                <div class="card-image">
+                <img src="assets/images/chocolatePlate.jpg">
+                <span class="card-title">Chocolate Mousse</span>
+                </div>
+                <div class="card-content">
+                <p>The chocolate hummus has the texture of mousse. Try it with fruit and nuts.</p>
+                </div>
+            </div>
+        </div>
 
+    <!-- THIRD IMAGE -->
+    <div class="col s6 m4">
+            <div class="card">
+                <div class="card-image">
+                <img src="assets/images/pyramid.jpg">
+                <span class="card-title">Stacks</span>
+                </div>
+                <div class="card-content">
+                <p>After making the hummus it's so much fun to stack it up. Like a mountain of hummus!</p>
+                </div>
+            </div>
+    </div>
+    
+    </div>
+    <div class="row">
+        <!-- FOURTH IMAGE -->
+        <div class="col s6 m4">
+            <div class="card">
+                <div class="card-image">
+                <img src="assets/images/ROWS.jpg">
+                <span class="card-title">Prep</span>
+                </div>
+                <div class="card-content">
+                <p>The final step - putting on the toppings. Completing this step is a relief! Next it's time to eat :)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
   
-
-  <!-- Modal Structure -->
-  <div id="modal1" class="modal">
-    <!--close the modal-->
-    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat left">X</a>
-    <div class="modal-content">
-        <iframe class="orderForm" src="https://docs.google.com/forms/d/e/1FAIpQLScRJZc3jm5hzD_dvn8wg7h2U8eeUizdtuDl3cRDzFdx0UBdNA/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-    </div>
-  </div>
-  <!-- END MODAL -->
 
   <div class="container">
     <div class="section">
 
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m6 offset-m3">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">local_grocery_store</i></h2>
-            <h5 class="center">The Best Ingredients</h5>
-
-            <p class="light">This hummus will knock your socks off. It's made with 40% tahini - so it's creamy, dreamy, and good for you.</p>
-          </div>
-        </div>
-
-      </div>
+  
 
     </div>
     <br><br>
@@ -109,14 +142,14 @@
   </div>
 
   <footer class="page-footer teal darken-3">
-    <div class="container">
-      <div class="row">
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <p>Dan Byler 2018</p>
-    </div>
-  </footer>
+        <div class="container">
+          <div class="row">
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <p>Dan Byler 2018</p>
+        </div>
+      </footer>
 
 
   <!--  Scripts-->
