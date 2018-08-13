@@ -1,36 +1,25 @@
-.modal {
-    width: 50% !important;
-    max-height: 85% !important ; 
+
+
+.hero-image{
+    background-image: url('../images/hero.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 185px;
+   }
+
+nav {
+    background-color: #346133 !important;
+}
+nav a, nav li, nav p {
+    color: white !important;
+}
+
+.col {
+    border: solid black 2px;
 }
 
 
 
-.orderForm {
-    display: block !important;
-    width: 100%;
-    margin: 0 auto !important;
-}
 
-@media (max-width: 750px) { 
-    .modal {
-        width: 100% !important;
-        max-height: 85% !important ; 
-    }
- }
 
-/* MailChip form */
- #mc_embed_signup {
-     background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; 
-    }
-
-    .imgCard {
-        height: 455px !important;
-    } 
-
-    @media screen and (max-width: 600px) {
-    
-    .imgCard {
-        height: 355px !important;
-    } 
-}
 
