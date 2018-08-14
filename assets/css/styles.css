@@ -1,11 +1,24 @@
 
 
-.hero-image{
-    background-image: url('../images/hero.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 185px;
+.jumbotron {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem !important;
+    flex-wrap: wrap;
+}
+
+.hero-image {
+    margin-right: 30px;
    }
+
+.jumbotron img {
+    max-height: 125px;
+    min-height: 75px;
+    margin-right: 30px;
+    
+}
 
 nav {
     background-color: #346133 !important;
