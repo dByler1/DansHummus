@@ -37,7 +37,7 @@ nav a, nav li, nav p {
 /* FOOTER CSS */
 /* added a flex-grow-1 to the main container, no classes on the footer */
 body {
-    min-height: 100vh; 
+    min-height: 100vh !important; 
   }
   
   /* Footer styles */
