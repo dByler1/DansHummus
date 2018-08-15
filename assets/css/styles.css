@@ -13,11 +13,10 @@
 .social-share {
     display: flex;
     flex-direction: row;
-    
     align-items: center;
     justify-content: start;
     padding: 20px;
-    flex-grow: 4;
+    flex-grow: 1;
 }
 
 .jumbotron img {
@@ -37,7 +36,9 @@ nav a, nav li, nav p {
 /* FOOTER CSS */
 /* added a flex-grow-1 to the main container, no classes on the footer */
 body {
-    min-height: 100vh !important; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
   }
   
   /* Footer styles */
