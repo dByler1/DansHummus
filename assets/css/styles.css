@@ -1,6 +1,9 @@
  /* Smallest devices (landscape phones, 576px and down) */
  @media (max-width: 576px) { 
-    
+    /* NAVBAR  */
+    .navbar-brand img {
+        height: 40px;
+    }
     /* MAIN HEADER */
     .main-header {
         font-size: 2.5rem;
@@ -32,6 +35,11 @@
  
  /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
+    /* NAVBAR  */
+    .navbar-brand img {
+        height: 50px;
+    }
+    
     /* MAIN HEADER */
     .main-header {
         font-size: 3.5rem;
@@ -61,6 +69,11 @@
 
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
+    /* NAVBAR  */
+    .navbar-brand img {
+        height: 60px;
+    }
+    
     /* MAIN HEADER */
     .main-header {
         font-size: 4rem;
@@ -92,6 +105,11 @@
 
  /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    /* NAVBAR  */
+    .navbar-brand img {
+        height: 70px;
+    }
+    
     /* MAIN HEADER */
     .main-header {
         font-size: 4.5rem;
@@ -132,11 +150,6 @@
     font-size: 1.2rem;
 }
 
-.navbar-brand img {
-    height: 70px;
-}
-/* NAVBAR */
-/* --------------------------------------------------------------------------- */
 
 /* SECTION BACKGROUNDS */
 .tan-background {
