@@ -9,8 +9,8 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/styles.css" />
-  <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png" />
+  <link rel="stylesheet" type="text/css" media="screen" href="../css/styles.css" />
+  <link rel="shortcut icon" type="image/png" href="../images/favicon.png" />
   <title>Dan's Hummus</title>
 </head>
 
@@ -18,7 +18,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="index.html">
-      <img src="assets/images/web_icon.png" />
+      <img src="../images/web_icon.png" />
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
       aria-expanded="false" aria-label="Toggle navigation">
@@ -28,17 +28,17 @@
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 
       <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
         <li class="nav-item active">
-          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link" href="../../index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="product.html">Product</a>
+          <a class="nav-link" href="../../about.html">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link" href="../../product.html">Product</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../contact.html">Contact</a>
         </li>
       </ul>
     </div>
@@ -46,22 +46,26 @@
 
   <!-- Wrapper used as a sticky footer solution  -->
   <div class="wrapper">
+
     <!-- FIRST SECTION - nested containers to achive full width background with fixed width content -->
     <div class="container-fluid">
       <div class="row tan-background row-1">
         <div class="container">
           <div class="row">
-            <div class="col-md-6">
-              <h1 class="display-4 secondary-header">
-                Dan's Hummus
-              </h1>
-              <p class="lead">
-                Quality, homemade, small batch hummus made with loads of tahini.
-              </p>
+            <div class="col-md-5">
+                <h2 class="display-4 mb-2 secondary-header">
+                    Original
+                  </h2>
+                  <p class="lead">
+                      The hummus of your dreams. 
+                      An original, authentic favorite.
+                      Inspiration from  Israel, Turkey, 
+                      and the good old U.S. of A. 
+                    </p>
             </div>
-            <div class="col-md-4 offset-2 d-none d-md-block">
-              <img src="assets/images/social-4.png" class="img-fluid" />
-            </div>
+            <!-- <div class="col-md-7 d-none d-md-block">
+              <img src="../images/social-4.png" class="img-fluid" />
+            </div> -->
           </div>
         </div>
       </div>
@@ -71,53 +75,37 @@
     <div class="container-fluid">
       <div class="row blue-background row-2">
         <div class="container">
-          <div class="row">
 
-            <div class="col-md-6">
-              <h2 class="display-4 mb-5 secondary-header">
-                Dan Byler
-              </h2>
-              <p class="lead">I started making hummus because I was eating huge amounts of hummus and the standard grocery
-                store brands just weren't making me excited. I went to Israel for work and discovered a whole new world of
-                delicious hummus. I started Dan’s Hummus to make delicious, nutritious hummus that tastes so good it’s easy
-                to eat a whole container.
-                <br/>
-                <br/> I get up everyday excited to provide exceptional hummus.
-                <br/>
-                <br/> When I’m not making hummus I’m coding web applications, doing Jiu-Jitsu or yoga, hanging with my cat
-                Lou, or reading science fiction. Learning new things makes my world go 'round.
-              </p>
-            </div>
-            <div class="col-md-4 offset-md-2 d-flex align-items-center">
-              <img src="assets/images/profile.jpg" class="img-fluid rounded" />
+          <div class="row ">
+            <div class="col">
+              <img src="../images/Nutrition/vertical/Original - Nutrition Label(1).jpg" class="img-fluid product-vertical"/>
             </div>
           </div>
-
         </div>
       </div>
     </div>
 
     <!-- THIRD SECTION - nested containers to achive full width background with fixed width content -->
     <div class="container-fluid">
-      <div class="row tan-background row-3">
-        <div class="container">
-
-          <div class="row">
-
-            <div class="col-md-6 d-flex flex-row">
-              <a href="https://www.instagram.com/danshummus/" target="_blank">
-                <img src="assets/images/if_Instagram_1298747.png" class="CTA-social mr-2" />
-              </a>
-              <a href="https://www.instagram.com/danshummus/" target="_blank" class="lead">
-                Keep in touch!
-              </a>
+        <div class="row tan-background row-3">
+          <div class="container">
+  
+            <div class="row">
+  
+              <div class="col-md-6 d-flex flex-row">
+                <a href="https://www.instagram.com/danshummus/" target="_blank">
+                  <img src="../images/if_Instagram_1298747.png" class="CTA-social mr-2" />
+                </a>
+                <a href="https://www.instagram.com/danshummus/" target="_blank" class="lead">
+                  Keep in touch!
+                </a>
+              </div>
+  
+  
             </div>
-
-
           </div>
         </div>
       </div>
-    </div>
     <!-- End wrapper below  -->
   </div>
 
@@ -140,7 +128,7 @@
           <a class="nav-link" href="contact.html">Contact</a>
         </li>
       </ul>
-      <div class="">Dan's Hummus LLC
+      <div>Dan's Hummus LLC
         <br/> West Chester, PA
       </div>
     </div>
