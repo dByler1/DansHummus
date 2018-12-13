@@ -187,6 +187,21 @@ a:link, a:hover {
 }
 /* -------------------------------------------------------------------------------------------------- */
 
+
+/* IFRAME SCROLL IOS */
+.embed-responsive {
+
+    -webkit-overflow-scrolling: auto !important;
+      /* overflow-y: auto !important; */
+      
+}
+
+/* .embed-responsive iframe {
+    height: 100%;
+    width: 100%;
+  } */
+
+/* --------------------------------------------------------------------------- */
 /* FOOTER CSS */
 
 body {
