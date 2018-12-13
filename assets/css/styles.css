@@ -191,15 +191,15 @@ a:link, a:hover {
 /* IFRAME SCROLL IOS */
 .embed-responsive {
 
-    -webkit-overflow-scrolling: auto !important;
-      /* overflow-y: auto !important; */
+    -webkit-overflow-scrolling: touch !important;
+      overflow-y: scroll !important;
       
 }
 
-/* .embed-responsive iframe {
+.embed-responsive iframe {
     height: 100%;
     width: 100%;
-  } */
+  }
 
 /* --------------------------------------------------------------------------- */
 /* FOOTER CSS */
